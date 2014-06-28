@@ -7,5 +7,7 @@
     <string name="senha">Senha</string>
 
     <string name="entrar">Entrar</string>
+    
+    <string name="erro_autenticacao">Usuário/Senha inválido!</string>
 
 </resources>

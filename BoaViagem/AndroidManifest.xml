@@ -23,6 +23,11 @@
             </intent-filter>
         </activity>
         
+        <activity
+            android:name="br.com.casadocodigo.boaviagem.activity.DashboardActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
     </application>
 
 </manifest>
