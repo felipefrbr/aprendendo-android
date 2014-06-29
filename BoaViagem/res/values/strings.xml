@@ -9,5 +9,13 @@
     <string name="entrar">Entrar</string>
     
     <string name="erro_autenticacao">Usuário/Senha inválido!</string>
+    
+    <string name="novo_gasto">Novo Gasto</string>
+    
+    <string name="nova_viagem">Nova Viagem</string>
+    
+    <string name="minhas_viagens">Minhas Viagens</string>
+    
+    <string name="configuracoes">Configurações</string>
 
 </resources>
