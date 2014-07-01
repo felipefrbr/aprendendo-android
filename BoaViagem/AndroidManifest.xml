@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.casadocodigo.boaviagem"
     android:versionCode="1"
@@ -11,8 +12,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-        
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
         <activity
             android:name="br.com.casadocodigo.boaviagem.activity.BoaViagemActivity"
             android:label="@string/app_name" >
@@ -22,12 +22,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
         <activity
             android:name="br.com.casadocodigo.boaviagem.activity.DashboardActivity"
             android:label="@string/app_name" >
         </activity>
-        
+        <activity
+            android:name="br.com.casadocodigo.boaviagem.activity.ViagemActivity"
+            android:label="@string/title_activity_nova_viagem" >
+        </activity>
+        <activity
+            android:name="br.com.casadocodigo.boaviagem.activity.GastoActivity"
+            android:label="@string/title_activity_gasto" >
+        </activity>
     </application>
 
 </manifest>

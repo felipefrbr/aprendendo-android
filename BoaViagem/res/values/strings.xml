@@ -1,21 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">BoaViagem</string>
-
     <string name="usuario">Usuário</string>
-
     <string name="senha">Senha</string>
-
     <string name="entrar">Entrar</string>
-    
     <string name="erro_autenticacao">Usuário/Senha inválido!</string>
-    
     <string name="novo_gasto">Novo Gasto</string>
-    
     <string name="nova_viagem">Nova Viagem</string>
-    
     <string name="minhas_viagens">Minhas Viagens</string>
-    
     <string name="configuracoes">Configurações</string>
+    <string name="title_activity_nova_viagem">NovaViagemActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="destino">Destino</string>
+    <string name="tipo_da_viagem">Tipo da Viagem</string>
+    <string name="lazer">Lazer</string>
+    <string name="negocios">Negócios</string>
+    <string name="data_da_chegada">Data de Chegada</string>
+    <string name="data_da_saida">Data de Saída</string>
+    <string name="selecione">Selecione</string>
+    <string name="orcamento">Orçamento</string>
+    <string name="quantidade_de_pessoas">Quantidade de Pessoas:</string>
+    <string name="salvar">Salvar</string>
+    <string name="title_activity_gasto">GastoActivity</string>
+    <string name="valor">Valor</string>
+    <string name="data">Data</string>
+    <string name="descricao">Descrição</string>
+    <string name="local">Local</string>
+    <string name="gastei">Gastei!</string>
 
 </resources>
