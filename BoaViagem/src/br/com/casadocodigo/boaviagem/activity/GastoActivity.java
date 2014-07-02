@@ -8,8 +8,10 @@ import android.app.DatePickerDialog.OnDateSetListener;
 import android.app.Dialog;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.Spinner;
 import br.com.casadocodigo.boaviagem.R;
 
 public class GastoActivity extends Activity {
@@ -17,6 +19,8 @@ public class GastoActivity extends Activity {
 	private int ano, mes, dia;
 	private Button dataGasto;
 
+	private Spinner categoria;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -28,6 +32,12 @@ public class GastoActivity extends Activity {
 		dia = calendar.get(Calendar.DAY_OF_MONTH);
 		dataGasto = (Button) findViewById(R.id.data);
 		dataGasto.setText(dia + "/" + (mes + 1) + "/" + ano);
+		
+		categoria = (Spinner) findViewById(R.id.categoria);
+
+		ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.categoria_gasto, android.R.layout.simple_spinner_item);
+		
+		categoria.setAdapter(adapter);
 	}
 
 	public void selecionarData(View view) {
